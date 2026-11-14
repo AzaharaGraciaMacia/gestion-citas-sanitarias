@@ -1,0 +1,24 @@
+# Configuración con credenciales
+.env
+config/local.php
+
+# Dependencias
+/vendor/
+
+# Copias y volcados de base de datos
+*.sql.bak
+/backups/
+*.dump
+
+# Archivos subidos en local (logotipos de prueba)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# IDE y sistema
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.phpunit.result.cache
