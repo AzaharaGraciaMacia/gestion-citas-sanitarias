@@ -2,7 +2,7 @@
 
 Aplicación web para gestionar las citas de un centro sanitario pequeño o mediano. Los pacientes solicitan citas en los horarios que ofrece el centro y el personal organiza la agenda de sus profesionales. Cada centro puede adaptar la interfaz a su identidad visual (nombre, logotipo y colores).
 
-> Proyecto Intermodular de 2.º de DAW (curso 2026-2027) · Autora: Azahara Gracia Macia
+> Proyecto Intermodular de 2ºDAWs (curso 2026-2027) · Autora: Azahara Gracia Macia
 
 ## Problema que resuelve
 
@@ -37,15 +37,17 @@ PHP 8 (sin framework, estructura MVC) · MariaDB con PDO · HTML, CSS, Bootstrap
 
 🟡 **Fase de planificación.** Se ha elaborado el plan de ejecución (Fase 3). Todavía no hay código de la aplicación.
 
-| Hito | Descripción | Fecha prevista | Estado |
-|---|---|---|---|
-| H1 | Entrega de la Fase 3 (plan de ejecución) | 20/11/2026 | En curso |
-| H2 | Diseño cerrado (modelo de datos, prototipos y temas) | 15/01/2027 | Pendiente |
-| H3 | Autenticación y permisos operativos | 05/02/2027 | Pendiente |
-| H4 | Gestión de citas completa en el servidor | 16/04/2027 | Pendiente |
-| H5 | Versión mínima funcional integrada | 07/05/2027 | Pendiente |
-| H6 | Versión desplegada y verificada | 28/05/2027 | Pendiente |
-| H7 | Entrega final del proyecto | 04/06/2027 | Pendiente |
+| Hito | Descripción                                                 | Fecha prevista | Estado    |
+| ---- | ----------------------------------------------------------- | -------------- | --------- |
+| H1   | Entrega de la Fase 1 (Análisis de la necesidad y propuesta) | 18/10/2026     | Realizado |
+| H2   | Entrega de la Fase 2 (Diseño y viabilidad)                  | 01/11/2026     | Realizado |
+| H3   | Entrega de la Fase 3 (plan de ejecución)                    | 15/11/2026     | Realizado |
+| H4   | Diseño cerrado (modelo de datos, prototipos y temas)        | 29/01/2027     | En curso  |
+| H5   | Autenticación y permisos operativos                         | 05/02/2027     | Pendiente |
+| H6   | Gestión de citas completa en el servidor                    | 30/04/2027     | Pendiente |
+| H7   | Versión mínima funcional integrada                          | 14/05/2027     | Pendiente |
+| H8   | Versión desplegada y verificada                             | 25/05/2027     | Pendiente |
+| H9   | Entrega final del proyecto                                  | 28/05/2027     | Pendiente |
 
 Próximo paso: preparar el entorno local y cerrar el diseño de la base de datos (bloques B1 y B2).
 

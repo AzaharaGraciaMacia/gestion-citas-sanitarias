@@ -6,7 +6,7 @@ Se revisa en cada hito. Estados posibles: **Abierto** (vigilado), **Controlado**
 
 | ID | Riesgo | Prob. | Impacto | Medida preventiva | Actuación si aparece | Estado |
 |---|---|---|---|---|---|---|
-| R01 | Retraso por coincidir con entregas y exámenes de otros módulos | Alta | Medio | Carga semanal de 5-8 h; semanas de reserva en Navidad y Pascua; seguimiento semanal de horas | Usar la reserva; reducir alcance no crítico; aplazar ampliaciones | Abierto |
+| R01 | Retraso por coincidir con entregas y exámenes de otros módulos | Alta | Medio | Carga reducida en exámenes y durante la FE; reserva en Navidad y Semana Santa; seguimiento semanal de horas | Usar la reserva; reducir alcance no crítico; aplazar ampliaciones | Abierto |
 | R02 | Dificultad en el cálculo de disponibilidad o en el control de concurrencia | Media | Alto | Diseñar la estrategia antes de programar (T08); pruebas PHPUnit desde el principio (T37) | Simplificar a franjas fijas con restricción UNIQUE (profesional, inicio); consultar al profesorado | Abierto |
 | R03 | Estimaciones optimistas en tareas nuevas (sesiones, CSRF, subida de archivos) | Media | Medio | Tareas pequeñas; consultar primero la documentación oficial; registrar horas reales | Reajustar el Gantt en el siguiente hito y usar la reserva | Abierto |
 | R04 | Problemas de integración frontend-backend | Media | Medio | Definir rutas y formato JSON en T09; integración progresiva por flujos | Probar los endpoints por separado con DevTools; corregir el contrato y documentarlo | Abierto |
@@ -15,7 +15,7 @@ Se revisa en cada hito. Estados posibles: **Abierto** (vigilado), **Controlado**
 | R07 | Problemas de despliegue (versión de PHP, permisos, HTTPS) | Media | Alto | Comprobar requisitos antes de contratar; preparar el hosting antes de las pruebas (T40); documentar versiones | Ajustar configuración; alojamiento alternativo; demostración en local como respaldo | Abierto |
 | R08 | Caída de un servicio externo (GitHub, hosting) | Baja | Medio | Copia local completa; funcionalidad esencial sin servicios externos | Trabajar en local y sincronizar después; demo local | Abierto |
 | R09 | Publicar credenciales en el repositorio | Media | Alto | .env en .gitignore; revisar el diff antes de cada commit | Cambiar inmediatamente las credenciales y limpiar el historial | Abierto |
-| R10 | Crecimiento del alcance durante el desarrollo | Media | Medio | Ampliaciones solo después del hito H5 | Registrar la idea como issue «ampliación» y posponerla | Abierto |
+| R10 | Crecimiento del alcance durante el desarrollo | Media | Medio | Ampliaciones solo después del hito H7 | Registrar la idea como issue «ampliación» y posponerla | Abierto |
 | R11 | Enfermedad o indisponibilidad personal | Baja | Alto | Margen de contingencia en el calendario | Replanificar y comunicarlo al profesorado | Abierto |
 
 ## Prevención de riesgos laborales
@@ -31,4 +31,4 @@ Se revisa en cada hito. Estados posibles: **Abierto** (vigilado), **Controlado**
 
 | Fecha | Hito | Cambios |
 |---|---|---|
-| 16/11/2026 | H1 | Registro inicial |
+| 16/11/2026 | H3 | Registro inicial |
